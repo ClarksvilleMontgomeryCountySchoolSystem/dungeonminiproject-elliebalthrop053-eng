@@ -1,6 +1,6 @@
 drawbridge_raised = False
-if not drawbridge_raised:
-    outcome = ("Flicker: For the success ")
+if drawbridge_raised:
+    outcome = "Doom: The other branch "
 else:
-    outcome = ("Doom: The other branch ")
+    outcome = "Thunder: for the success "
 print(outcome)

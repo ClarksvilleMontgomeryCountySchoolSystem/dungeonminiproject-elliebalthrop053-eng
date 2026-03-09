@@ -1,6 +1,7 @@
 escaped = True
 if not escaped:
-    outcome = ("Flicker: For the success ")
+    outcome = "Doom: The other branch "
+
 else:
-    outcome = ("Doom: The other branch ")
+    outcome = "Legend: For the success "
 print(outcome)

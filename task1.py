@@ -1,7 +1,7 @@
 torch_lit = True
-if not torch_lit:
-    outcome = ("Flicker: For the success ")
+if torch_lit:
+    outcome = "Flicker: For the success "
 else:
-    outcome = ("Doom: The other branch ")
+    outcome = "Doom: The other branch "
 print(outcome)
 

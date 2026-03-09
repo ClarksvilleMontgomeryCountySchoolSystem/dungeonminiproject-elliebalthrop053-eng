@@ -1,6 +1,6 @@
 has_key = False
-if not has_key:
-    outcome = ("Flicker: For the success ")
+if has_key:
+    outcome = "Click: For the success "
 else:
-    outcome = ("Doom: The other branch ")
+    outcome = "Doom: The other branch "
 print(outcome)
